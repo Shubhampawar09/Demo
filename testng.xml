@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parallel" thread-count="1" parallel="tests">
+	<listeners>
+		<listener class-name="com.neo.utility.Listener" />
+	</listeners>
+
+	<test name="ParallelTesting1">
+		<parameter name="deviceIndex" value="0" />
+		<classes>
+			<class name="com.neo.test.SellTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<!--   <test name="ParallelTesting2">
+		<parameter name="deviceIndex" value="1" />
+		<classes>
+			<class name="com.neo.test.HomeTest" />
+		</classes>
+	</test>  -->
+	
+</suite> <!-- Suite -->

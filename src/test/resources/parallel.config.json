@@ -1,0 +1,25 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "username": "udayshankar_HmLV5D",
+  "access_key": "z7a6EYwuMuLrDczzisLR",
+
+  "capabilities": {
+    "project": "Parallel Project",
+    "build": "ParallelTest-build-1",
+    "name": "parallel_test",
+    "browserstack.debug": true,
+    "app": "bs://daff9a1f4a5a1757588ccc5fa6ad9edeccc41ebf"
+  },
+
+  "environments": [
+    {
+      "device": "Samsung Galaxy S10e",
+      "os_version": "9.0"
+    },
+    {
+      "device": "Google Pixel 5",
+      "os_version": "11.0"
+    }
+    
+  ]
+}
