@@ -25,13 +25,5 @@ pipeline
             }
          }
     }
-    post
-    {
-       always
-       {
-          emailext body: 'Status of the jenkins pipeline :', subject: 'Jenkins Pipeline Update', to: '
-thorbolenisha07@gmail.com
-'
-       }
     }
 }
